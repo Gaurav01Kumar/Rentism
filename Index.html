@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Rentsim</title>
+</head>
+
+<body>
+
+  <main id="homePage">
+
+    <!--Nav bar   -->
+    <header>
+      <nav style="background-color:rgba(236, 231, 231,80%);"
+        class="navbar navbar-expand-lg navbar-light mx-3 my-3   fixed-top">
+        <div class="container g-0">
+          <img src="./Image/Logo.png" alt="" height="50px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./Index.html">Home</a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutUs.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./price.html">PRICE PLANS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact.html">CONTACT US</a>
+              </li>
+            </ul>
+            <div class="mx-auto  dropdown">
+              <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+    <!-- middle content -->
+    <section id="main">
+      <div class="top_heading text-center">
+        <p>Real-estate Portfolio Returns & Cash-Flow Simulation</p>
+      </div>
+      <form action="">
+        <div class="welocme justify-content-center">
+          <p class="fw-bold">welocme to</p>
+          <img src="./Image//Group 87.png" alt="" height="50">
+        </div>
+        <div class=" row justify-content-center search-area">
+          <div class="col-1">
+            <i class="fas fa-map-marker-alt mt-2"></i>
+          </div>
+          <div class=" col-8 ">
+            <input type="text" class="form-control search-input"
+              style="width:350px; border:none; background:transparent;" placeholder="SEARCH YOUR PROPERTY BY ADDRESS*"
+              id="searchKey" autocomplete="off" onfocusin="activateSearch()" onfocusout="deactivateSearch()" value=""
+              required width="200px">
+          </div>
+          <div class="col-1 ">
+            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+          <hr>
+          <p class="fw-bold" style="font-size: 13px; color:black;">
+            *Market and property data is provided by <a href="https://www.redfin.com/" class="text-muted"
+              target="_black"><u>Redfin</u>,</a>
+            a national real estate brokerage.
+          </p>
+        </div>
+        <!-- <div class="row">
+      <div class="col-3">
+      <p>Have no address ?</p>
+    </div>
+    <div class="col-6">
+      <select name="" id="">
+        <option value="Select your asset type">Select your asset type</option>
+        <option value="Select your asset type">Sample</option>
+      </select>
+    </div>
+    </div> -->
+        <div class=" row justify-content-center search-area align-items-center mt-3">
+          <div class="col-4 pt-3">
+            <p>Have no addres ?</p>
+          </div>
+          <div class=" col-6 ">
+            <select name="" id="" style="width: 240px;">
+              <option value="Select your asset type">Select your asset type</option>
+              <option value="Select your asset type">Sample</option>
+            </select>
+          </div>
+          <div class="col-1 ">
+            <button class="btn text-light" type="submit"
+              style="background: linear-gradient(180deg, #01C1D5 0%, #04575B 100%);">Go</button>
+          </div>
+          <p class="col-md-10 text-sm  my-3 py-2" style="background:#FFCF4F; border-radius: 8px;">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+            <strong>Notice:</strong> We are facing some technical issue with the address search feature.
+            Please click on the link below to enter your property parameters manually.
+          </p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="bg-dark text-light">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-3  pt-3">
+          <img src="./Image/Logo (1).png" alt="" height="50">
+          <p class="my-2">Real-estate Portfolio Returns & Cash-Flow Simulation</p>
+        </div>
+        <div class="col-lg-3 pt-3">
+          <div class="row">
+
+            <div class="col-6 my-2">
+
+              <ul class="pt-1" style="text-align: left;">
+                <strong>Explore</strong>
+                <li class="m"><a href="/">Home</a></li>
+                <li><a href="">About Us</a></li>
+              </ul>
+            </div>
+            <div class="col-6 mt-4 pt-2">
+              <ul>
+                <li><a href="#">Price plans</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 pt-3">
+          <div class="row">
+
+            <div class="col-6 my-2 ">
+
+              <ul class="pt-1">
+                <strong>Account</strong>
+                <li class="m"><a href="/">Login</a></li>
+                <li><a href="">Register</a></li>
+              </ul>
+            </div>
+            <div class="col-6  pt-2">
+
+              <ul class="pt-1">
+                <strong>Legal</strong>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 pt-4 text-center">
+          <p class="fw-bold">Follow</p>
+          <a href=""><i class="fab fa-facebook pe-1"></i></a>
+          <a href=""><i class="fab fa-microsoft pe-1"></i></a>
+          <a href=""><i class="fab fa-google pe-1"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+
+        </div>
+        <hr class="line">
+        <p class="text-center"> © 2022, <a href="#">RentSim</a> , All copyright Reserved</p>
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Inspiration&family=Ms+Madi&family=Open+Sans:ital,wght@0,300;1,300&family=Pacifico&family=Poppins:wght@300&family=Prata&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#homePage {
+    height: 100vh;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1565402170291-8491f14678db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.line {
+    padding: 2px;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.About {
+    padding: 15%;
+}
+
+/* input tag */
+input {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    margin-left: 5%;
+    border: 1px solid gray;
+}
+
+
+.icon {
+    color: lightgreen;
+}
+
+/* Price plans */
+.pricePlans {
+    padding-top: 8%;
+}
+
+.card-table {
+    max-height: 98vh;
+    overflow: auto;
+}
+
+.card-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.card-table td {
+    padding: 20px;
+}
+
+.cross {
+    color: lightgreen;
+}
+
+.card-table th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.top_item {
+    width: 50%;
+    height: 80px;
+    background-color: #fff;
+}
+
+#main form,
+.top_heading {
+    background-color: #D2D6D4;
+    width: 600px;
+    padding: 1%;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+.top_heading{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.6) 15.62%, rgba(255, 255, 255, 0.6) 85.42%, rgba(255, 255, 255, 0) 100%);
+}
+.welocme {
+    display: flex;
+
+}
+
+.welocme p {
+    font-size: 30px;
+    padding-top: 10px;
+    color: black;
+}
